@@ -1,0 +1,10 @@
+CREATE TABLE employees (
+    employee_id INT PRIMARY KEY,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    position VARCHAR(100),
+    department_id INT
+);
+INSERT INTO employees (employee_id, first_name, last_name, position, department_id) VALUES
+(1, 'John', 'Doe', 'Software Engineer', 101),
+(10, 'Robert', 'Jhonson', 'Product Manager', 101);
